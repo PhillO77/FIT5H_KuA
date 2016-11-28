@@ -1,0 +1,17 @@
+Arbeiten auf der Console
+
+Die Standard Console unter Linux ist die bash (Bourne again Shell).
+Es gibt noch eine Vielzahl von anderen Implementationen. 
+Bekannt und sehr beliebt ist die z-shell.
+
+Die Console dient der Verwaltung des Systems
+Es gibt drei verschiederen Arten von Befehlen, die mit dem befehl type spezifiziert werden können
+a.Systembefehle die zum Linux-Standardbefehlssatz zählen
+	type rm 
+		Ausgabe: Pfad zum Systemprogram rm: /bin/rm
+
+b. Bashbefehle: Funktionen, die für die Bash geschrieben sind 
+	type cd
+
+c. Alias-befehle: Befehle mit Optionen, die in der .bashrc definiert wurden 
+	type ls

@@ -1,0 +1,16 @@
+GREP:
+	grep filtert aus einen Input-Stream Zeilen heraus, die einem Suchmuster entsprechen.
+	Das Suchmuster wird als RegEx (Regular Expression) übergeben.
+
+Beispiel:
+	lspci | grep VGA
+		Die ausgabe des befehels lspci | grep (Ausgabe der PCI-Komponenten des Systems) wird über die pipe an den Befehel grep weitergegeben.
+		Grep sucht in dem Inputstream nach der Zeichenfolge VGA.
+		Alle Zeilen die er findet gibt er zum Bildschirm aus.
+
+	grep theo /etc/passwd
+		Der Befehl grep wird aufgerufen.
+		Der erste Parameter enthält das Suchmuster theo
+		Der zweite Parameter bezeichnet die Datei (/etc/passwd) in der die Übereinstimmung gefunden werden soll.
+
+	

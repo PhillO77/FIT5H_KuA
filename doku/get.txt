@@ -18,7 +18,7 @@ Erstellen eines lokalen Repositorys:
 4. Datei zum Repository hinzufügen
 	git add . -A
 5. Datei commiten
-	git commit -m "first commit"
+	git commit -aPhim "first commit"
 6. Das lokale Repos mit dem Remote Repos verbinden
 	git remote add origin https://github.com/PhillO77/FIT5H_EuP.git
 7. Die lokalen Aenderungen zum Remote Repos Hochladen
@@ -29,3 +29,7 @@ Aktualisieren eines Projektes
 2.git add . -A
 3.git commit -am 'Text zur Charakterisierung'
 git push origin master
+
+Zeit einstellung für passwort abfrage
+EuP$ git config --global credential.helper Cache
+philippe@R1-11S24VM-Desktop1:~/EuP$ git config credential.helper "Cache --timeout=3600000000"

@@ -1,0 +1,7 @@
+Drei Grundprizipien von Linux:
+	
+	- alles ist eine Datei
+
+	- Vermeiden von Redundanz																 sag nur was wenn du was zusagen hast: das ergebniss eines 		befehles wird nur im fall eines fehlers oder wenn das 			ergebniss explizit andgefordert wird ausgegeben.
+
+	-Kleine spezialisierte Programme: ein Programm erledigt nur eine Aufgabe, aber die perfekt

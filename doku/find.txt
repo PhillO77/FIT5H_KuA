@@ -1,0 +1,27 @@
+Wildcard
+	?
+		find datei?.txt
+			das Fragezeichen im Suchbegriff steht genau für ein zeichen
+
+
+	*	
+		find *.txt 
+			der Asterisk steht für beliebig viele Zeichen
+
+
+	[12]
+		find datei[12].txt 
+			in der eckigen klammer stehen die Zeichen die gefunden werden sollen 
+		find date[a-k][12]
+			es ist möglich einen bereich anzugeben also zwischen a und k
+		find datei[?1].txt
+			alles sollebn gefunden werden, die dem muster entsprechen, und keine 1 als zeichen nach den ziffern<datei>haben
+
+Optionen
+	Es gibt vielfältige suchoptionen in jedem Bereich.Es ist möglich nach Dateien zu suchen die eine bestimmte größe haben,
+	oder in einem bestimmmten Zeitraum verändert wurden, oder einem bestimmmten besitzer haben
+		siehe 
+			man find
+		find . mmin -100
+			Findet alle Dateien im aktuellen Verzeichnis, die in den letzten 100 minuten geändert wurden.
+
